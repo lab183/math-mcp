@@ -1,0 +1,23 @@
+[project]
+name = "math-mcp"
+version = "0.1.0"
+description = "Math-related utilities exposed via MCP"
+readme = "README.md"
+requires-python = ">=3.13"
+license = {text = "MIT"}
+authors = [
+    {name = "Robert Carr", email = "Robert.Carr@wowinc.com"}
+]
+keywords = ["math", "random", "number", "generator", "utility", "cryptographic", "pseudorandom", "rng", "mcp", "model-context-protocol"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+dependencies = [
+    "fastmcp>=3.2.4",
+]
